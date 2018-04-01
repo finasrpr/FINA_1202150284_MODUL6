@@ -8,6 +8,13 @@
     tools:context="com.example.fina.fina_1202150284_modul6.Login">
 
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/instagram" />
+
     <EditText
 
         android:id="@+id/email"
@@ -22,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword" />
 
     <Button
